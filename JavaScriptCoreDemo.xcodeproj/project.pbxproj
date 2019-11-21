@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4695EFBC2383BECB00B99505 /* mainTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 4695EFBB2383BECB00B99505 /* mainTest.js */; };
+		4695EFC02383C8F400B99505 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFBF2383C8F400B99505 /* MyObject.m */; };
+		4695EFC22383CC4800B99505 /* JSRenderUIView.js in Resources */ = {isa = PBXBuildFile; fileRef = 4695EFC12383CC4800B99505 /* JSRenderUIView.js */; };
+		4695EFC82383CF0000B99505 /* Globle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFC72383CF0000B99505 /* Globle.m */; };
 		46E02B62238222F900AB5D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B61238222F900AB5D75 /* AppDelegate.m */; };
 		46E02B65238222FA00AB5D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B64238222FA00AB5D75 /* ViewController.m */; };
 		46E02B68238222FA00AB5D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E02B66238222FA00AB5D75 /* Main.storyboard */; };
@@ -15,6 +19,15 @@
 		46E02B70238222FB00AB5D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B6F238222FB00AB5D75 /* main.m */; };
 		46E02B7A238222FB00AB5D75 /* JavaScriptCoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B79238222FB00AB5D75 /* JavaScriptCoreDemoTests.m */; };
 		46E02B85238222FB00AB5D75 /* JavaScriptCoreDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B84238222FB00AB5D75 /* JavaScriptCoreDemoUITests.m */; };
+		46E02B952382237C00AB5D75 /* HomeOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B942382237C00AB5D75 /* HomeOneViewController.m */; };
+		46E02B982382238A00AB5D75 /* HomeTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B972382238A00AB5D75 /* HomeTwoViewController.m */; };
+		46E02B9B2382239600AB5D75 /* HomeThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B9A2382239600AB5D75 /* HomeThreeViewController.m */; };
+		46E02B9E238223A400AB5D75 /* HomeFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B9D238223A400AB5D75 /* HomeFourViewController.m */; };
+		46E02BA1238224F600AB5D75 /* FHCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02BA0238224F600AB5D75 /* FHCTabBarController.m */; };
+		46E02BA42382257700AB5D75 /* FHCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02BA32382257700AB5D75 /* FHCNavigationController.m */; };
+		46E02BA6238238B700AB5D75 /* ocEvaluateScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E02BA5238238B700AB5D75 /* ocEvaluateScript.js */; };
+		46E02BA823823DF900AB5D75 /* scriptEvaluateOC.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E02BA723823DF900AB5D75 /* scriptEvaluateOC.js */; };
+		46E02BAA23828F7400AB5D75 /* view.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E02BA923828F7400AB5D75 /* view.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4695EFBB2383BECB00B99505 /* mainTest.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = mainTest.js; sourceTree = "<group>"; };
+		4695EFBE2383C8F400B99505 /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		4695EFBF2383C8F400B99505 /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		4695EFC12383CC4800B99505 /* JSRenderUIView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JSRenderUIView.js; sourceTree = "<group>"; };
+		4695EFC62383CF0000B99505 /* Globle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globle.h; sourceTree = "<group>"; };
+		4695EFC72383CF0000B99505 /* Globle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Globle.m; sourceTree = "<group>"; };
 		46E02B5D238222F900AB5D75 /* JavaScriptCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E02B60238222F900AB5D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46E02B61238222F900AB5D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +70,21 @@
 		46E02B80238222FB00AB5D75 /* JavaScriptCoreDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JavaScriptCoreDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E02B84238222FB00AB5D75 /* JavaScriptCoreDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreDemoUITests.m; sourceTree = "<group>"; };
 		46E02B86238222FB00AB5D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E02B932382237C00AB5D75 /* HomeOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeOneViewController.h; sourceTree = "<group>"; };
+		46E02B942382237C00AB5D75 /* HomeOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeOneViewController.m; sourceTree = "<group>"; };
+		46E02B962382238A00AB5D75 /* HomeTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTwoViewController.h; sourceTree = "<group>"; };
+		46E02B972382238A00AB5D75 /* HomeTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTwoViewController.m; sourceTree = "<group>"; };
+		46E02B992382239600AB5D75 /* HomeThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeThreeViewController.h; sourceTree = "<group>"; };
+		46E02B9A2382239600AB5D75 /* HomeThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeThreeViewController.m; sourceTree = "<group>"; };
+		46E02B9C238223A400AB5D75 /* HomeFourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFourViewController.h; sourceTree = "<group>"; };
+		46E02B9D238223A400AB5D75 /* HomeFourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFourViewController.m; sourceTree = "<group>"; };
+		46E02B9F238224F600AB5D75 /* FHCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCTabBarController.h; sourceTree = "<group>"; };
+		46E02BA0238224F600AB5D75 /* FHCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCTabBarController.m; sourceTree = "<group>"; };
+		46E02BA22382257700AB5D75 /* FHCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCNavigationController.h; sourceTree = "<group>"; };
+		46E02BA32382257700AB5D75 /* FHCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCNavigationController.m; sourceTree = "<group>"; };
+		46E02BA5238238B700AB5D75 /* ocEvaluateScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ocEvaluateScript.js; sourceTree = "<group>"; };
+		46E02BA723823DF900AB5D75 /* scriptEvaluateOC.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scriptEvaluateOC.js; sourceTree = "<group>"; };
+		46E02BA923828F7400AB5D75 /* view.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = view.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4695EFBD2383C8C800B99505 /* JSNative */ = {
+			isa = PBXGroup;
+			children = (
+				4695EFBE2383C8F400B99505 /* MyObject.h */,
+				4695EFBF2383C8F400B99505 /* MyObject.m */,
+				4695EFC62383CF0000B99505 /* Globle.h */,
+				4695EFC72383CF0000B99505 /* Globle.m */,
+			);
+			path = JSNative;
+			sourceTree = "<group>";
+		};
 		46E02B54238222F900AB5D75 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +146,16 @@
 		46E02B5F238222F900AB5D75 /* JavaScriptCoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4695EFBD2383C8C800B99505 /* JSNative */,
+				46E02B922382234A00AB5D75 /* ViewController */,
 				46E02B60238222F900AB5D75 /* AppDelegate.h */,
 				46E02B61238222F900AB5D75 /* AppDelegate.m */,
 				46E02B63238222F900AB5D75 /* ViewController.h */,
 				46E02B64238222FA00AB5D75 /* ViewController.m */,
+				46E02B9F238224F600AB5D75 /* FHCTabBarController.h */,
+				46E02BA0238224F600AB5D75 /* FHCTabBarController.m */,
+				46E02BA22382257700AB5D75 /* FHCNavigationController.h */,
+				46E02BA32382257700AB5D75 /* FHCNavigationController.m */,
 				46E02B66238222FA00AB5D75 /* Main.storyboard */,
 				46E02B69238222FB00AB5D75 /* Assets.xcassets */,
 				46E02B6B238222FB00AB5D75 /* LaunchScreen.storyboard */,
@@ -130,6 +181,26 @@
 				46E02B86238222FB00AB5D75 /* Info.plist */,
 			);
 			path = JavaScriptCoreDemoUITests;
+			sourceTree = "<group>";
+		};
+		46E02B922382234A00AB5D75 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46E02B932382237C00AB5D75 /* HomeOneViewController.h */,
+				46E02B942382237C00AB5D75 /* HomeOneViewController.m */,
+				46E02B962382238A00AB5D75 /* HomeTwoViewController.h */,
+				46E02B972382238A00AB5D75 /* HomeTwoViewController.m */,
+				46E02B992382239600AB5D75 /* HomeThreeViewController.h */,
+				46E02B9A2382239600AB5D75 /* HomeThreeViewController.m */,
+				46E02B9C238223A400AB5D75 /* HomeFourViewController.h */,
+				46E02B9D238223A400AB5D75 /* HomeFourViewController.m */,
+				46E02BA5238238B700AB5D75 /* ocEvaluateScript.js */,
+				46E02BA723823DF900AB5D75 /* scriptEvaluateOC.js */,
+				46E02BA923828F7400AB5D75 /* view.js */,
+				4695EFBB2383BECB00B99505 /* mainTest.js */,
+				4695EFC12383CC4800B99505 /* JSRenderUIView.js */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4695EFBC2383BECB00B99505 /* mainTest.js in Resources */,
+				46E02BA823823DF900AB5D75 /* scriptEvaluateOC.js in Resources */,
+				4695EFC22383CC4800B99505 /* JSRenderUIView.js in Resources */,
+				46E02BA6238238B700AB5D75 /* ocEvaluateScript.js in Resources */,
 				46E02B6D238222FB00AB5D75 /* LaunchScreen.storyboard in Resources */,
+				46E02BAA23828F7400AB5D75 /* view.js in Resources */,
 				46E02B6A238222FB00AB5D75 /* Assets.xcassets in Resources */,
 				46E02B68238222FA00AB5D75 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E02B952382237C00AB5D75 /* HomeOneViewController.m in Sources */,
+				46E02BA1238224F600AB5D75 /* FHCTabBarController.m in Sources */,
+				46E02BA42382257700AB5D75 /* FHCNavigationController.m in Sources */,
+				4695EFC82383CF0000B99505 /* Globle.m in Sources */,
 				46E02B65238222FA00AB5D75 /* ViewController.m in Sources */,
+				4695EFC02383C8F400B99505 /* MyObject.m in Sources */,
+				46E02B9E238223A400AB5D75 /* HomeFourViewController.m in Sources */,
+				46E02B982382238A00AB5D75 /* HomeTwoViewController.m in Sources */,
 				46E02B70238222FB00AB5D75 /* main.m in Sources */,
+				46E02B9B2382239600AB5D75 /* HomeThreeViewController.m in Sources */,
 				46E02B62238222F900AB5D75 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JavaScriptCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JavaScriptCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

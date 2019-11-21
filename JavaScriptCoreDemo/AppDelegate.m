@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FHCTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    FHCTabBarController * tab = [[FHCTabBarController alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = tab;
     return YES;
 }
 

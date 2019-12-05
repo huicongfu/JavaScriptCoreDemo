@@ -10,6 +10,7 @@
 #import <JavaScriptCore/JavaScriptCore.h>
 #import "MyObject.h"
 #import "Globle.h"
+#import "MyHitTestView.h"
 
 #define HEXCOLOR(hexValue)              [UIColor colorWithRed : ((CGFloat)((hexValue & 0xFF0000) >> 16)) / 255.0 green : ((CGFloat)((hexValue & 0xFF00) >> 8)) / 255.0 blue : ((CGFloat)(hexValue & 0xFF)) / 255.0 alpha : 1.0]
 
@@ -36,7 +37,15 @@
 //    [self runJS_Hello];
 //    [self ocEvaluateScriptFileTwo];
 //    [self OCMapJS];
-    [self JSRenderOCUI];
+//    [self JSRenderOCUI];
+//    [self testHitTestUI];
+}
+
+- (void)testHitTestUI {
+    MyHitTestView * tetView = [[MyHitTestView alloc] init];
+    [self.view addSubview:tetView];
+    tetView.backgroundColor = [UIColor lightGrayColor];
+    tetView.frame = CGRectMake(100, 150, 100, 100);
 }
 
 - (void)JSRenderOCUI {

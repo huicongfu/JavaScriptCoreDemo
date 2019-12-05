@@ -7,8 +7,14 @@
 //
 
 #import "HomeTwoViewController.h"
+#import "FHCStackViewController.h"
+#import "FHCStackViewXibViewController.h"
 
-@interface HomeTwoViewController ()
+@interface HomeTwoViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+
+@property (nonatomic, retain) UITableView * tableView;
+@property (nonatomic, retain) NSMutableArray * mutDataArray;
 
 @end
 
@@ -17,7 +23,48 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [self testEasyStackView];
+    [self createUI];
 }
+
+- (void)createUI {
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, kWidth, kHeight) style:UITableViewStylePlain];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
+    [self.mutDataArray addObjectsFromArray:@[@"UIStackViewDemo",@"UIStackViewXibDemo"]];
+}
+
+- (NSMutableArray *)mutDataArray {
+    if (_mutDataArray == nil) {
+        _mutDataArray = [NSMutableArray array];
+    }
+    return _mutDataArray;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.mutDataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString * cellID = @"CellId";
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellID];
+    }
+    cell.textLabel.text = self.mutDataArray[indexPath.row];
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row == 0) {
+        [self.navigationController pushViewController:[FHCStackViewController new] animated:YES];
+    } else if(indexPath.row == 1){
+        [self.navigationController pushViewController:[FHCStackViewXibViewController new] animated:YES];
+    }
+}
+
 
 /*
 #pragma mark - Navigation

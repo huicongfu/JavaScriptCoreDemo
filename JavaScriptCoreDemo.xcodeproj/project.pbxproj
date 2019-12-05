@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2121DDB1E57E027429A426BC /* libPods-JavaScriptCoreDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C8D445BF0D849AD0AC8BB6 /* libPods-JavaScriptCoreDemoUITests.a */; };
 		4695EFBC2383BECB00B99505 /* mainTest.js in Resources */ = {isa = PBXBuildFile; fileRef = 4695EFBB2383BECB00B99505 /* mainTest.js */; };
 		4695EFC02383C8F400B99505 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFBF2383C8F400B99505 /* MyObject.m */; };
 		4695EFC22383CC4800B99505 /* JSRenderUIView.js in Resources */ = {isa = PBXBuildFile; fileRef = 4695EFC12383CC4800B99505 /* JSRenderUIView.js */; };
 		4695EFC82383CF0000B99505 /* Globle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFC72383CF0000B99505 /* Globle.m */; };
+		4695EFCD2386832E00B99505 /* MyHitTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695EFCC2386832E00B99505 /* MyHitTestView.m */; };
+		4695F0D62398F76E00B99505 /* FHCStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F0D52398F76E00B99505 /* FHCStackViewController.m */; };
+		4695F0DB2398FF4800B99505 /* FHCStackViewXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F0D92398FF4800B99505 /* FHCStackViewXibViewController.m */; };
+		4695F0DC2398FF4900B99505 /* FHCStackViewXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4695F0DA2398FF4800B99505 /* FHCStackViewXibViewController.xib */; };
 		46E02B62238222F900AB5D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B61238222F900AB5D75 /* AppDelegate.m */; };
 		46E02B65238222FA00AB5D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B64238222FA00AB5D75 /* ViewController.m */; };
 		46E02B68238222FA00AB5D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E02B66238222FA00AB5D75 /* Main.storyboard */; };
@@ -28,6 +33,8 @@
 		46E02BA6238238B700AB5D75 /* ocEvaluateScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E02BA5238238B700AB5D75 /* ocEvaluateScript.js */; };
 		46E02BA823823DF900AB5D75 /* scriptEvaluateOC.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E02BA723823DF900AB5D75 /* scriptEvaluateOC.js */; };
 		46E02BAA23828F7400AB5D75 /* view.js in Resources */ = {isa = PBXBuildFile; fileRef = 46E02BA923828F7400AB5D75 /* view.js */; };
+		78B7CE44BA70BF5FFB4950C9 /* libPods-JavaScriptCoreDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D14440165E260F5011F4A61E /* libPods-JavaScriptCoreDemo.a */; };
+		D72270CBA75FA2975C6064E2 /* libPods-JavaScriptCoreDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED853E799D5EC24ED1D3EBE3 /* libPods-JavaScriptCoreDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +55,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C05B16D5199BFB52BE9F310 /* Pods-JavaScriptCoreDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScriptCoreDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JavaScriptCoreDemoUITests/Pods-JavaScriptCoreDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		131A803C9F46C0D1AFF8204C /* Pods-JavaScriptCoreDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScriptCoreDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JavaScriptCoreDemoTests/Pods-JavaScriptCoreDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		18C8D445BF0D849AD0AC8BB6 /* libPods-JavaScriptCoreDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JavaScriptCoreDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373F42CA785BA30211E99965 /* Pods-JavaScriptCoreDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScriptCoreDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JavaScriptCoreDemoTests/Pods-JavaScriptCoreDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4695EFBB2383BECB00B99505 /* mainTest.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = mainTest.js; sourceTree = "<group>"; };
 		4695EFBE2383C8F400B99505 /* MyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
 		4695EFBF2383C8F400B99505 /* MyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		4695EFC12383CC4800B99505 /* JSRenderUIView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JSRenderUIView.js; sourceTree = "<group>"; };
 		4695EFC62383CF0000B99505 /* Globle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globle.h; sourceTree = "<group>"; };
 		4695EFC72383CF0000B99505 /* Globle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Globle.m; sourceTree = "<group>"; };
+		4695EFCB2386832E00B99505 /* MyHitTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHitTestView.h; sourceTree = "<group>"; };
+		4695EFCC2386832E00B99505 /* MyHitTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyHitTestView.m; sourceTree = "<group>"; };
+		4695F0D42398F76E00B99505 /* FHCStackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCStackViewController.h; sourceTree = "<group>"; };
+		4695F0D52398F76E00B99505 /* FHCStackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCStackViewController.m; sourceTree = "<group>"; };
+		4695F0D72398F7B500B99505 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4695F0D82398FF4800B99505 /* FHCStackViewXibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCStackViewXibViewController.h; sourceTree = "<group>"; };
+		4695F0D92398FF4800B99505 /* FHCStackViewXibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCStackViewXibViewController.m; sourceTree = "<group>"; };
+		4695F0DA2398FF4800B99505 /* FHCStackViewXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FHCStackViewXibViewController.xib; sourceTree = "<group>"; };
 		46E02B5D238222F900AB5D75 /* JavaScriptCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E02B60238222F900AB5D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46E02B61238222F900AB5D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +104,11 @@
 		46E02BA5238238B700AB5D75 /* ocEvaluateScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ocEvaluateScript.js; sourceTree = "<group>"; };
 		46E02BA723823DF900AB5D75 /* scriptEvaluateOC.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = scriptEvaluateOC.js; sourceTree = "<group>"; };
 		46E02BA923828F7400AB5D75 /* view.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = view.js; sourceTree = "<group>"; };
+		63AF5482771A676A3871F914 /* Pods-JavaScriptCoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScriptCoreDemo.release.xcconfig"; path = "Target Support Files/Pods-JavaScriptCoreDemo/Pods-JavaScriptCoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A40617718A97F94C51148DE5 /* Pods-JavaScriptCoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScriptCoreDemo.debug.xcconfig"; path = "Target Support Files/Pods-JavaScriptCoreDemo/Pods-JavaScriptCoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D14440165E260F5011F4A61E /* libPods-JavaScriptCoreDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JavaScriptCoreDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED853E799D5EC24ED1D3EBE3 /* libPods-JavaScriptCoreDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JavaScriptCoreDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE0930AF0D1D69D29C64387 /* Pods-JavaScriptCoreDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScriptCoreDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-JavaScriptCoreDemoUITests/Pods-JavaScriptCoreDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B7CE44BA70BF5FFB4950C9 /* libPods-JavaScriptCoreDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72270CBA75FA2975C6064E2 /* libPods-JavaScriptCoreDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2121DDB1E57E027429A426BC /* libPods-JavaScriptCoreDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,13 +150,37 @@
 			path = JSNative;
 			sourceTree = "<group>";
 		};
+		4695EFCA2386830900B99505 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4695EFCB2386832E00B99505 /* MyHitTestView.h */,
+				4695EFCC2386832E00B99505 /* MyHitTestView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4695F0D32398F5E800B99505 /* UIStackView */ = {
+			isa = PBXGroup;
+			children = (
+				4695F0D42398F76E00B99505 /* FHCStackViewController.h */,
+				4695F0D52398F76E00B99505 /* FHCStackViewController.m */,
+				4695F0D82398FF4800B99505 /* FHCStackViewXibViewController.h */,
+				4695F0D92398FF4800B99505 /* FHCStackViewXibViewController.m */,
+				4695F0DA2398FF4800B99505 /* FHCStackViewXibViewController.xib */,
+			);
+			path = UIStackView;
+			sourceTree = "<group>";
+		};
 		46E02B54238222F900AB5D75 = {
 			isa = PBXGroup;
 			children = (
+				4695F0D72398F7B500B99505 /* PrefixHeader.pch */,
 				46E02B5F238222F900AB5D75 /* JavaScriptCoreDemo */,
 				46E02B78238222FB00AB5D75 /* JavaScriptCoreDemoTests */,
 				46E02B83238222FB00AB5D75 /* JavaScriptCoreDemoUITests */,
 				46E02B5E238222F900AB5D75 /* Products */,
+				DFE8FA52AFF24E35F7C9B583 /* Pods */,
+				C447370FCC4D50C146DCB920 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +197,8 @@
 		46E02B5F238222F900AB5D75 /* JavaScriptCoreDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4695F0D32398F5E800B99505 /* UIStackView */,
+				4695EFCA2386830900B99505 /* Views */,
 				4695EFBD2383C8C800B99505 /* JSNative */,
 				46E02B922382234A00AB5D75 /* ViewController */,
 				46E02B60238222F900AB5D75 /* AppDelegate.h */,
@@ -203,6 +256,29 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		C447370FCC4D50C146DCB920 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D14440165E260F5011F4A61E /* libPods-JavaScriptCoreDemo.a */,
+				ED853E799D5EC24ED1D3EBE3 /* libPods-JavaScriptCoreDemoTests.a */,
+				18C8D445BF0D849AD0AC8BB6 /* libPods-JavaScriptCoreDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE8FA52AFF24E35F7C9B583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A40617718A97F94C51148DE5 /* Pods-JavaScriptCoreDemo.debug.xcconfig */,
+				63AF5482771A676A3871F914 /* Pods-JavaScriptCoreDemo.release.xcconfig */,
+				373F42CA785BA30211E99965 /* Pods-JavaScriptCoreDemoTests.debug.xcconfig */,
+				131A803C9F46C0D1AFF8204C /* Pods-JavaScriptCoreDemoTests.release.xcconfig */,
+				FFE0930AF0D1D69D29C64387 /* Pods-JavaScriptCoreDemoUITests.debug.xcconfig */,
+				0C05B16D5199BFB52BE9F310 /* Pods-JavaScriptCoreDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46E02B89238222FB00AB5D75 /* Build configuration list for PBXNativeTarget "JavaScriptCoreDemo" */;
 			buildPhases = (
+				BDB2F7FD840EE23010C3C260 /* [CP] Check Pods Manifest.lock */,
 				46E02B59238222F900AB5D75 /* Sources */,
 				46E02B5A238222F900AB5D75 /* Frameworks */,
 				46E02B5B238222F900AB5D75 /* Resources */,
@@ -227,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46E02B8C238222FB00AB5D75 /* Build configuration list for PBXNativeTarget "JavaScriptCoreDemoTests" */;
 			buildPhases = (
+				93F2D92A6F80B7B7790CADAB /* [CP] Check Pods Manifest.lock */,
 				46E02B71238222FB00AB5D75 /* Sources */,
 				46E02B72238222FB00AB5D75 /* Frameworks */,
 				46E02B73238222FB00AB5D75 /* Resources */,
@@ -245,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46E02B8F238222FB00AB5D75 /* Build configuration list for PBXNativeTarget "JavaScriptCoreDemoUITests" */;
 			buildPhases = (
+				8C641B57A4FADC2E2949B995 /* [CP] Check Pods Manifest.lock */,
 				46E02B7C238222FB00AB5D75 /* Sources */,
 				46E02B7D238222FB00AB5D75 /* Frameworks */,
 				46E02B7E238222FB00AB5D75 /* Resources */,
@@ -311,6 +390,7 @@
 				4695EFC22383CC4800B99505 /* JSRenderUIView.js in Resources */,
 				46E02BA6238238B700AB5D75 /* ocEvaluateScript.js in Resources */,
 				46E02B6D238222FB00AB5D75 /* LaunchScreen.storyboard in Resources */,
+				4695F0DC2398FF4900B99505 /* FHCStackViewXibViewController.xib in Resources */,
 				46E02BAA23828F7400AB5D75 /* view.js in Resources */,
 				46E02B6A238222FB00AB5D75 /* Assets.xcassets in Resources */,
 				46E02B68238222FA00AB5D75 /* Main.storyboard in Resources */,
@@ -333,13 +413,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C641B57A4FADC2E2949B995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JavaScriptCoreDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F2D92A6F80B7B7790CADAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JavaScriptCoreDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB2F7FD840EE23010C3C260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JavaScriptCoreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46E02B59238222F900AB5D75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4695EFCD2386832E00B99505 /* MyHitTestView.m in Sources */,
 				46E02B952382237C00AB5D75 /* HomeOneViewController.m in Sources */,
 				46E02BA1238224F600AB5D75 /* FHCTabBarController.m in Sources */,
+				4695F0D62398F76E00B99505 /* FHCStackViewController.m in Sources */,
 				46E02BA42382257700AB5D75 /* FHCNavigationController.m in Sources */,
 				4695EFC82383CF0000B99505 /* Globle.m in Sources */,
 				46E02B65238222FA00AB5D75 /* ViewController.m in Sources */,
@@ -348,6 +499,7 @@
 				46E02B982382238A00AB5D75 /* HomeTwoViewController.m in Sources */,
 				46E02B70238222FB00AB5D75 /* main.m in Sources */,
 				46E02B9B2382239600AB5D75 /* HomeThreeViewController.m in Sources */,
+				4695F0DB2398FF4800B99505 /* FHCStackViewXibViewController.m in Sources */,
 				46E02B62238222F900AB5D75 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,9 +669,11 @@
 		};
 		46E02B8A238222FB00AB5D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40617718A97F94C51148DE5 /* Pods-JavaScriptCoreDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = JavaScriptCoreDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -534,9 +688,11 @@
 		};
 		46E02B8B238222FB00AB5D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AF5482771A676A3871F914 /* Pods-JavaScriptCoreDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = JavaScriptCoreDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -551,6 +707,7 @@
 		};
 		46E02B8D238222FB00AB5D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373F42CA785BA30211E99965 /* Pods-JavaScriptCoreDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -569,6 +726,7 @@
 		};
 		46E02B8E238222FB00AB5D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131A803C9F46C0D1AFF8204C /* Pods-JavaScriptCoreDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +745,7 @@
 		};
 		46E02B90238222FB00AB5D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE0930AF0D1D69D29C64387 /* Pods-JavaScriptCoreDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JavaScriptCoreDemoUITests/Info.plist;
@@ -604,6 +763,7 @@
 		};
 		46E02B91238222FB00AB5D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C05B16D5199BFB52BE9F310 /* Pods-JavaScriptCoreDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JavaScriptCoreDemoUITests/Info.plist;

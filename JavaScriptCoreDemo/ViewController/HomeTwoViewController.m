@@ -9,6 +9,7 @@
 #import "HomeTwoViewController.h"
 #import "FHCStackViewController.h"
 #import "FHCStackViewXibViewController.h"
+#import "FHCStackViewPracticeViewController.h"
 
 @interface HomeTwoViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -32,7 +33,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
-    [self.mutDataArray addObjectsFromArray:@[@"UIStackViewDemo",@"UIStackViewXibDemo"]];
+    [self.mutDataArray addObjectsFromArray:@[@"UIStackViewDemo",@"UIStackViewXibDemo",@"FHCStackViewPracticeViewController"]];
 }
 
 - (NSMutableArray *)mutDataArray {
@@ -62,6 +63,11 @@
         [self.navigationController pushViewController:[FHCStackViewController new] animated:YES];
     } else if(indexPath.row == 1){
         [self.navigationController pushViewController:[FHCStackViewXibViewController new] animated:YES];
+    }else if(indexPath.row == 2){
+        [self.navigationController pushViewController:[FHCStackViewPracticeViewController new] animated:YES];
+    }
+    else {
+       
     }
 }
 

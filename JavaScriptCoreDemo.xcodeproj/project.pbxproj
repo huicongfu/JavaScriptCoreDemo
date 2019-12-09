@@ -16,6 +16,9 @@
 		4695F0D62398F76E00B99505 /* FHCStackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F0D52398F76E00B99505 /* FHCStackViewController.m */; };
 		4695F0DB2398FF4800B99505 /* FHCStackViewXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F0D92398FF4800B99505 /* FHCStackViewXibViewController.m */; };
 		4695F0DC2398FF4900B99505 /* FHCStackViewXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4695F0DA2398FF4800B99505 /* FHCStackViewXibViewController.xib */; };
+		4695F0E0239A03A000B99505 /* FHCStackViewPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F0DE239A03A000B99505 /* FHCStackViewPracticeViewController.m */; };
+		4695F0E1239A03A000B99505 /* FHCStackViewPracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4695F0DF239A03A000B99505 /* FHCStackViewPracticeViewController.xib */; };
+		4695F0E4239A4FE300B99505 /* StackWidthLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4695F0E3239A4FE300B99505 /* StackWidthLabel.m */; };
 		46E02B62238222F900AB5D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B61238222F900AB5D75 /* AppDelegate.m */; };
 		46E02B65238222FA00AB5D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E02B64238222FA00AB5D75 /* ViewController.m */; };
 		46E02B68238222FA00AB5D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E02B66238222FA00AB5D75 /* Main.storyboard */; };
@@ -73,6 +76,11 @@
 		4695F0D82398FF4800B99505 /* FHCStackViewXibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCStackViewXibViewController.h; sourceTree = "<group>"; };
 		4695F0D92398FF4800B99505 /* FHCStackViewXibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCStackViewXibViewController.m; sourceTree = "<group>"; };
 		4695F0DA2398FF4800B99505 /* FHCStackViewXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FHCStackViewXibViewController.xib; sourceTree = "<group>"; };
+		4695F0DD239A03A000B99505 /* FHCStackViewPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCStackViewPracticeViewController.h; sourceTree = "<group>"; };
+		4695F0DE239A03A000B99505 /* FHCStackViewPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCStackViewPracticeViewController.m; sourceTree = "<group>"; };
+		4695F0DF239A03A000B99505 /* FHCStackViewPracticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FHCStackViewPracticeViewController.xib; sourceTree = "<group>"; };
+		4695F0E2239A4FE300B99505 /* StackWidthLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackWidthLabel.h; sourceTree = "<group>"; };
+		4695F0E3239A4FE300B99505 /* StackWidthLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackWidthLabel.m; sourceTree = "<group>"; };
 		46E02B5D238222F900AB5D75 /* JavaScriptCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46E02B60238222F900AB5D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46E02B61238222F900AB5D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +175,11 @@
 				4695F0D82398FF4800B99505 /* FHCStackViewXibViewController.h */,
 				4695F0D92398FF4800B99505 /* FHCStackViewXibViewController.m */,
 				4695F0DA2398FF4800B99505 /* FHCStackViewXibViewController.xib */,
+				4695F0DD239A03A000B99505 /* FHCStackViewPracticeViewController.h */,
+				4695F0DE239A03A000B99505 /* FHCStackViewPracticeViewController.m */,
+				4695F0DF239A03A000B99505 /* FHCStackViewPracticeViewController.xib */,
+				4695F0E2239A4FE300B99505 /* StackWidthLabel.h */,
+				4695F0E3239A4FE300B99505 /* StackWidthLabel.m */,
 			);
 			path = UIStackView;
 			sourceTree = "<group>";
@@ -392,6 +405,7 @@
 				46E02B6D238222FB00AB5D75 /* LaunchScreen.storyboard in Resources */,
 				4695F0DC2398FF4900B99505 /* FHCStackViewXibViewController.xib in Resources */,
 				46E02BAA23828F7400AB5D75 /* view.js in Resources */,
+				4695F0E1239A03A000B99505 /* FHCStackViewPracticeViewController.xib in Resources */,
 				46E02B6A238222FB00AB5D75 /* Assets.xcassets in Resources */,
 				46E02B68238222FA00AB5D75 /* Main.storyboard in Resources */,
 			);
@@ -489,11 +503,13 @@
 			files = (
 				4695EFCD2386832E00B99505 /* MyHitTestView.m in Sources */,
 				46E02B952382237C00AB5D75 /* HomeOneViewController.m in Sources */,
+				4695F0E4239A4FE300B99505 /* StackWidthLabel.m in Sources */,
 				46E02BA1238224F600AB5D75 /* FHCTabBarController.m in Sources */,
 				4695F0D62398F76E00B99505 /* FHCStackViewController.m in Sources */,
 				46E02BA42382257700AB5D75 /* FHCNavigationController.m in Sources */,
 				4695EFC82383CF0000B99505 /* Globle.m in Sources */,
 				46E02B65238222FA00AB5D75 /* ViewController.m in Sources */,
+				4695F0E0239A03A000B99505 /* FHCStackViewPracticeViewController.m in Sources */,
 				4695EFC02383C8F400B99505 /* MyObject.m in Sources */,
 				46E02B9E238223A400AB5D75 /* HomeFourViewController.m in Sources */,
 				46E02B982382238A00AB5D75 /* HomeTwoViewController.m in Sources */,
@@ -675,7 +691,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = JavaScriptCoreDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,7 +710,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = JavaScriptCoreDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,8 +7,17 @@
 //
 
 #import "FHCStackViewXibViewController.h"
+#import "StackWidthLabel.h"
 
 @interface FHCStackViewXibViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *whyVisitLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *whatToSeeLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *weatherInfoLabel;
+@property (weak, nonatomic) IBOutlet UIButton *hideOrShowBtn;
+@property (weak, nonatomic) IBOutlet UIStackView *twoStackview;
 
 @end
 
@@ -17,6 +26,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.whyVisitLabel.text = @"Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!Famous for its diversity of arts, finance, cuisine, fashion and entertainment, NYC will keep you hopping from dusk to dawn!";
+    self.whatToSeeLabel.text = @"Must-see's include Central Park, The American Museum of Natural History, The Statue of Liberty, Radio City Music Hall and Chinatown.Must-see's include Central Park, The American Museum of Natural History, The Statue of Liberty, Radio City Music Hall and Chinatown.Must-see's include Central Park, The American Museum of Natural History, The Statue of Liberty, Radio City Music Hall and Chinatown.Must-see's include Central Park, The American Museum of Natural History, The Statue of Liberty, Radio City Music Hall and Chinatown.";
+    self.weatherInfoLabel.text = @"NYC has a humid subtropical climate with cold and damp winters and hot and sticky summers.";
+}
+
+- (IBAction)hideOrShowBtnAction:(UIButton *)sender {
+    BOOL isHide = self.weatherInfoLabel.hidden;
+    [UIView animateWithDuration:0.25 animations:^{
+        self.weatherInfoLabel.hidden = !isHide;
+    }];
+    self.twoStackview.hidden = isHide;
 }
 
 /*
